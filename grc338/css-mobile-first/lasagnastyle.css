@@ -37,10 +37,17 @@ h3 {
   line-height: 1.25em;
 }
 
+figcaption {
+  color: rgb(186, 74, 0);
+  font-size: 1em;
+}
+
 ul.ingredients {
-  color: rgb(186, 74, 0)
+  color: rgb(186, 74, 0);
+  font-size: 1em;
 }
 
 ol.directions {
-  color: rgb(186, 74, 0)
+  color: rgb(186, 74, 0);
+  font-size: 1em;
 }
