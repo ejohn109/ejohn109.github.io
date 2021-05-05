@@ -8,10 +8,19 @@ img {
 }
 
 body {
-    background-color: rgb(250, 215, 160);
-    font-family: serif;
-    padding: 1em 1em 1em 1em;
-    color: rgb(186, 74, 0);
+  background-color: rgb(250, 215, 160);
+  font-family: serif;
+  padding: 1em 1em 1em 1em;
+  color: rgb(186, 74, 0);
+}
+
+img {
+  width: 100%;
+}
+
+div.container {
+  max-width: 40em;
+  margin: 0 auto;
 }
 
 h1 {
@@ -47,13 +56,11 @@ figcaption {
 ul.ingredients {
   color: rgb(186, 74, 0);
   font-size: 1em;
+  margin: 1em 0em 0.75em 0em;
 }
 
 ol.directions {
   color: rgb(186, 74, 0);
   font-size: 1em;
+  margin: 1em 0em 0.75em 0em;
 }
-
-
-
-/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
