@@ -21,7 +21,7 @@ figure {
   grid-template-rows: 5em auto 3em;
   grid-row-gap: 5em;
   grid-column-gap: 2em;
-	grid-column: 1/5;
+  grid-column: 1/3;
 }
 
 img {
