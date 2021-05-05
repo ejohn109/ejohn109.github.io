@@ -49,6 +49,7 @@ h3 {
 figcaption {
   color: rgb(186, 74, 0);
   font-size: 1em;
+  grid-row: 2/4;
 }
 
 ul.ingredients {
