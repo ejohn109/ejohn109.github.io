@@ -76,11 +76,11 @@ h3 {
 }
 
 h6 {
-  font-weight: 100;
-  letter-spacing: 0.1em;
-  margin-left: 4em;
-  margin-top: 30em;
-  margin-bottom: 4em;
+     font-weight: 100;
+     margin-left: 4em;
+     margin-top: 22em;
+     margin-bottom: 4em;
+     grid-row: 3/4;
 }
 
 ul.ingredients {
