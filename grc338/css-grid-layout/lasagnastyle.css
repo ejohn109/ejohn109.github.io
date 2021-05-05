@@ -15,7 +15,6 @@ body {
 }
 
 h1 {
-  text-align: center;
   color: rgb(230, 126, 34);
   font-size: 3em;
   font-weight: bold;
@@ -24,7 +23,6 @@ h1 {
 }
 
 h2 {
-  text-align: center;
   color: rgb(235, 152, 78);
   font-size: 2em;
   font-weight: bold;
