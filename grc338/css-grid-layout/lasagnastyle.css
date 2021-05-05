@@ -1,0 +1,62 @@
+/*CSS DOCUMENT*/
+
+
+html, body, div, span, applet, object, iframe,h1, h2, h3, h4, h5, h6, p, blockquote, pre,a, abbr, acronym, address, big, cite, code,del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var,b, u, i, center,dl, dt, dd, ol, ul, li,fieldset, form, label, legend,table, caption, tbody, tfoot, thead, tr, th, td,article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,time, mark, audio, video {margin: 0;	padding: 0;	border: 0;	vertical-align: baseline;} /*My edited version of the Eric Meyer’s reset tool. Feel free to keep it or delete it. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+}
+
+body {
+    background-color: rgb(250, 215, 160);
+    font-family: serif;
+    padding: 1em 1em 1em 1em;
+    color: rgb(186, 74, 0);
+}
+
+h1 {
+  text-align: center;
+  color: rgb(230, 126, 34);
+  font-size: 3em;
+  font-weight: bold;
+  margin: 1em 0em 0.75em 0em;
+  line-height: 1.25em;
+}
+
+h2 {
+  text-align: center;
+  color: rgb(235, 152, 78);
+  font-size: 2em;
+  font-weight: bold;
+  font-family: cursive;
+  margin: 1em 0em 0.75em 0em;
+  line-height: 1.25em;
+}
+
+h3 {
+  text-align: center;
+  color: rgb(235, 152, 78);
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em 0em 0.75em 0em;
+  line-height: 1.25em;
+}
+
+figcaption {
+  color: rgb(186, 74, 0);
+  font-size: 1em;
+}
+
+ul.ingredients {
+  color: rgb(186, 74, 0);
+  font-size: 1em;
+}
+
+ol.directions {
+  color: rgb(186, 74, 0);
+  font-size: 1em;
+}
+
+
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
