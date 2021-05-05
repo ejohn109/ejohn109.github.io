@@ -18,7 +18,6 @@ div.container {
   margin: 0 auto;
   padding: 2em;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: 5em auto 3em;
 }
 
 figure {
@@ -27,7 +26,16 @@ figure {
   grid-template-rows: 5em auto 3em;
   grid-row-gap: 7em;
   grid-column-gap: 1.7em;
-	grid-column: 1/5;
+	grid-column: 2;
+}
+
+main {
+     display: grid;
+     grid-template-columns: 1fr 1.5fr;
+     grid-template-rows: 5em auto 3em;
+     grid-row-gap: 12em;
+     grid-column-gap: 2.5em;
+     margin-bottom: 2em;
 }
 
 h1 {
@@ -36,7 +44,6 @@ h1 {
   font-weight: bold;
   margin: 1em 0em 0.75em 0em;
   line-height: 1.25em;
-  grid-column: 1/2;
 }
 
 h2 {
@@ -46,7 +53,6 @@ h2 {
   font-family: cursive;
   margin: 1em 0em 0.75em 0em;
   line-height: 1.25em;
-  grid-column: 1/2;
 }
 
 h3 {
