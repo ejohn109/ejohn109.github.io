@@ -1,0 +1,106 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%;
+}
+
+body {
+	font-family: sans-serif;
+	font-weight: 350;
+	font-style: normal;
+	background-color: #003A3D;
+	margin: 0em 1em 0em 1em;
+}
+
+div.container {
+	max-width: 60em;
+	margin: auto;
+}
+
+h1 a img {
+	width: 20%;
+	padding: 0.25em 1em 0em 1em;
+}
+
+nav ul {
+	padding: 0em 0em 1.5em 0em;
+}
+
+nav ul li {
+	display: inline;
+	list-style-type: disc;
+	letter-spacing: 0.06em;
+}
+
+nav ul li a {
+	text-decoration: none;
+	font-family: sans-serif;
+	font-weight: 600;
+	text-transform: uppercase;
+  color: #FEC8C6;
+}
+
+nav ul li a:hover {
+	color: #FFB2AF;
+}
+
+h2 {
+	font-family: sans-serif;
+	font-weight: 760;
+	font-size: 3em;
+	margin: 0em 0em 0.75em 0em;
+	color: #FEC8C6;
+}
+
+h3 {
+	color: #e8b7b5;
+	background-color: #005E63;
+	padding: 0.2em 0.75em 0.2em 0.75em;
+	text-transform: uppercase;
+}
+
+h4 {
+	font-family: sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	color: #c47874;
+	margin-top: 1em;
+}
+
+figure {
+	padding-bottom: 2em;
+}
+
+ul {
+	padding-bottom: 1em;
+}
+
+li {
+	list-style-type: disc;
+	margin-left: 2em;
+}
+
+p {
+	margin-top: 0.25em;
+  color: #cca19f;
+}
+
+p.price {
+	font-family: sans-serif;
+	font-weight: 300;
+	font-style: italic;
+  margin-bottom: 1.25em;
+	color: #01969E;
+}
+
+footer {
+	font-family: sans-serif;
+	font-weight: 375;
+  margin-bottom: 2em;
+	color: #b08b89;
+}
+
+footer p a {
+  text-decoration: none;
+  color: #ab7774;
+}
