@@ -30,6 +30,7 @@ nav ul li {
 	display: inline;
 	list-style-type: disc;
 	letter-spacing: 0.06em;
+	width: 25%;
 }
 
 nav ul li a {
