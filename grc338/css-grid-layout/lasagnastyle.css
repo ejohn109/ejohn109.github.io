@@ -1,0 +1,81 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%; /*Please leave this line.*/
+    grid-column: 1/2;
+}
+
+div.container {
+  max-width: 40em;
+  margin: auto;
+}
+
+body {
+    background-color: rgb(250, 215, 160);
+    font-family: serif;
+    padding: 1em 1em 1em 1em;
+    color: rgb(186, 74, 0);
+}
+
+h1 {
+  color: rgb(230, 126, 34);
+  font-size: 3em;
+  font-weight: bold;
+  margin: 1em 0em 0.75em 0em;
+  line-height: 1.25em;
+  grid-column: 1/4;
+}
+
+h2 {
+  color: rgb(235, 152, 78);
+  font-size: 2em;
+  font-weight: bold;
+  font-family: cursive;
+  margin: 1em 0em 0.75em 0em;
+  line-height: 1.25em;
+}
+
+h3 {
+  color: rgb(235, 152, 78);
+  font-size: 2em;
+  font-weight: bold;
+  margin: 1em 0em 0.75em 0em;
+  line-height: 1.25em;
+}
+
+figure {
+    margin: 0.5em;
+    display: grid;
+    grid-template-columns: 70% auto;
+    grid-column-gap: 1em;
+}
+
+figcaption {
+  color: rgb(186, 74, 0);
+  font-size: 1em;
+  grid-column: 2/3;
+}
+
+ul.ingredients {
+  color: rgb(186, 74, 0);
+  font-size: 1em;
+}
+
+ol.directions {
+  color: rgb(186, 74, 0);
+  font-size: 1em;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1f 1f;
+    grid-template-rows: auto;
+}
+
+section.ingredients {
+    grid-column: 1/2;
+}
+
+section.directions {
+    grid-column: 2/3;
+}
