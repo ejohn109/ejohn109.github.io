@@ -34,7 +34,7 @@ nav ul li {
 }
 
 nav ul li a {
-	text-decoration: none;
+	text-decoration: disc;
 	font-family: sans-serif;
 	font-weight: 600;
 	text-transform: uppercase;
@@ -84,7 +84,6 @@ li {
 p {
   line-height: 1.5em;
   color: #cca19f;
-  margin-left: 2em;
 }
 
 p.price {
