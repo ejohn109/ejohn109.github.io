@@ -37,7 +37,7 @@ figure{
     width: calc(100%-2em);
     position: absolute;
     opacity: 0;
-    transition: opacity .5s;
+    transition: opacity 0.5s;
 }
 
 figcaption {
@@ -57,7 +57,7 @@ input:nth-of-type(4):checked ~ main figure:nth-of-type(4){
 nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: .3em;
+    grid-gap: 0.2em;
 }
 
 input {
