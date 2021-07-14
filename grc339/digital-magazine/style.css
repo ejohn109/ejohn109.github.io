@@ -37,7 +37,11 @@ nav ul li {
     font-family: Bree, serif;
     font-size: 1em;
     text-transform: uppercase;
+}
+
+nav ul li a {
     color: #f39a9d;
+    text-decoration: none;
 }
 
 nav ul li a:hover {
