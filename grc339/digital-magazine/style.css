@@ -1,7 +1,7 @@
 /*CSS document*/
 
 body {
-  font-family: Bree, serif;
+  font-family: Tahoma;
   background-color: #f7f7f7;
 }
 
@@ -39,7 +39,7 @@ nav ul li {
     text-decoration: none;
     display: inline;
     margin: 0 1em;
-    font-family: Bree, serif;
+    font-family: Tahoma;
     font-size: 1em;
     text-transform: uppercase;
 }
@@ -63,7 +63,7 @@ p {
 }
 
 figcaption {
-    font-family: Bree, serif;
+    font-family: Tahoma;
     color: #000000;
     margin: 0em 0em 2em 0em;
 }
@@ -73,14 +73,14 @@ h1 {
 }
 
 h2 {
-    font-family: Bree, serif;
+    font-family: Tahoma;
     text-transform: uppercase;
     color: #f39a9d;
     margin: 1em 0em 1em 0em;
 }
 
 h3 {
-    font-family: Bree, serif;
+    font-family: Tahoma;
     text-transform: uppercase;
     color: #f39a9d;
     margin: 1em 0em 1em 0em;
