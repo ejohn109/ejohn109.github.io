@@ -6,7 +6,7 @@ body {
 }
 
 div.container {
-    max-width: 80em;
+    max-width: 40em;
     margin: auto;
 }
 
@@ -38,7 +38,7 @@ nav ul li {
     list-style-type: none;
     text-decoration: none;
     display: inline;
-    margin: 0 1em;
+    margin: 1em;
     font-family: Tahoma;
     font-size: 1em;
     text-transform: uppercase;
@@ -76,14 +76,13 @@ h2 {
     font-family: Tahoma;
     text-transform: uppercase;
     color: #f39a9d;
-    margin: 1em 0em 1em 0em;
 }
 
 h3 {
     font-family: Tahoma;
     text-transform: uppercase;
     color: #f39a9d;
-    margin: 1em 0em 1em 0em;
+    margin: 0em 0em 0em 0em;
 }
 
 @media screen and (min-width: 60em){
