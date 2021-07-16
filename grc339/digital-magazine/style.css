@@ -149,4 +149,8 @@ section.mainstory p {
     grid-column: 2/3;
   }
 
+  section.secondary {
+    grid-column: 1/2;
+  }
+
 }
