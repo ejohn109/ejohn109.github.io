@@ -208,8 +208,12 @@ section.mainstory p {
   margin: 0;
   }
 
-  aside {
+aside {
     grid-column: 2/3;
   }
 
+footer {
+  grid-column: 1/3;
+}
+	
 }
