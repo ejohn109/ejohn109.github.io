@@ -20,6 +20,11 @@ div.container-gallery input {
   display: none;
 }
 
+div.container-stories {
+  max-width: 80em;
+  margin: auto;
+}
+
 div.container-newsletter {
   max-width: 40em;
   margin: auto;
