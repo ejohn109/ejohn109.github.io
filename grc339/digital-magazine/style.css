@@ -7,32 +7,32 @@ body {
 }
 
 div.container {
-    max-width: 80em;
-    margin: auto;
+  max-width: 80em;
+  margin: auto;
 }
 
 div.container-gallery {
-    max-width: 70em;
-    margin: auto;
+  max-width: 70em;
+  margin: auto;
 }
 
 div.container-gallery input {
-    display: none;
+  display: none;
 }
 
 div.container-newsletter {
-    max-width: 40em;
-    margin: auto;
-    padding: 1em;
-    line-height: 1.5em;
+  max-width: 40em;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.5em;
 }
 
 main.gallery {
-    width: 100%;
-    margin: auto;
-    position: relative;
-    padding-bottom: calc(56% + 3em);
-    overflow: hidden;
+  width: 100%;
+  margin: auto;
+  position: relative;
+  padding-bottom: calc(56% + 3em);
+  overflow: hidden;
 }
 
 section {
@@ -41,10 +41,10 @@ section {
 }
 
 section.personal-info {
-    background: #ffeaec;
-    padding: 1em;
-    margin-bottom: 1em;
-    box-sizing: border-box;
+  background: #ffeaec;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
 }
 
 section.newsletter-choices {
@@ -71,8 +71,8 @@ section.personal-info ul li input[type="text"],
 section.personal-info ul li input[type="email"],
 section.personal-info ul li input[type="city"],
 section.personal-info ul li input[type="state"] {
-	flex: 1 0 32em;
-	box-sizing: border-box;
+	 flex: 1 0 32em;
+	 box-sizing: border-box;
 }
 
 section.personal-info ul li label {
@@ -85,43 +85,43 @@ section.personal-info ul {
 }
 
 section.newsletter-choices ul {
-    font-size: 110%;
+  font-size: 110%;
 }
 
 .mainstory {
-    margin-top: 1em;
-    margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .secondary {
-    margin-top: 1em;
-    margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .tertiary {
-    margin-top: 1em;
-    margin-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 figure {
-    margin: 0;
+  margin: 0;
 }
 
 figure.figure-gallery {
-    width: 100%;
-    position: absolute;
-    left: 100%;
-    transition: left 0.5s, opacity 0.5s;
-    opacity: 0;
+  width: 100%;
+  position: absolute;
+  left: 100%;
+  transition: left 0.5s, opacity 0.5s;
+  opacity: 0;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
 ul {
-    list-style-type: none;
-    padding: 0;
+  list-style-type: none;
+  padding: 0;
 }
 
 ul li {
@@ -130,44 +130,44 @@ ul li {
 }
 
 nav li {
-    list-style-type: none;
-    text-decoration: none;
-    display: inline;
-    font-family: Tahoma;
-    font-size: 2em;
-    font-style: normal;
-    font-weight: 400;
-    text-transform: uppercase;
-    margin-right: 0.7em;
+  list-style-type: none;
+  text-decoration: none;
+  display: inline;
+  font-family: Tahoma;
+  font-size: 2em;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin-right: 0.7em;
 }
 
 nav ul li a {
-    color: #f39a9d;
-    text-decoration: none;
+  color: #f39a9d;
+  text-decoration: none;
 }
 
 nav li a:hover {
-    color: #ffeaec;
+  color: #ffeaec;
 }
 
 nav.nav-gallery {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 p {
-    color: #000000;
-    font-size: 105%;
-    max-width: 50em;
+  color: #000000;
+  font-size: 105%;
+  max-width: 50em;
 }
 
 figcaption {
-    font-family: Tahoma;
-    color: #000000;
+  font-family: Tahoma;
+  color: #000000;
 }
 
 .logo {
@@ -181,26 +181,26 @@ h1 {
 }
 
 h2 {
-    font-family: Tahoma;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #f39a9d;
+  font-family: Tahoma;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #f39a9d;
 }
 
 h3 {
-    font-family: Tahoma;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #f39a9d;
-    font-size: 120%;
+  font-family: Tahoma;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #f39a9d;
+  font-size: 120%;
 }
 
 .mainstory-h3 {
-    font-size: 140%;
+  font-size: 140%;
 }
 
 label {
-    flex: 1 0 6em;
+  flex: 1 0 6em;
 }
 
 input:nth-of-type(1):checked ~ main.gallery figure.figure-gallery:nth-of-type(1),
@@ -220,41 +220,43 @@ input:nth-of-type(11):checked ~ main.gallery figure.figure-gallery:nth-of-type(1
 
 @media screen and (min-width: 60em) {
     div.container {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-gap: 0 1em;
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-gap: 0 1em;
     }
 
     div.container-stories {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        grid-gap: 0 1.5em;
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+      grid-gap: 0 1.5em;
     }
 
     div.container-newsletter {
-        margin: auto;
+      margin: auto;
       }
 
     header {
-        grid-column: 1/3;
+      grid-column: 1/3;
     }
 
     main {
-        grid-column: 1/2;
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        grid-gap: 0 2em;
+      grid-column: 1/2;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 0 2em;
     }
 
     section.mainstory {
-        grid-column: 2/4;
-        grid-row: 1/2;
-        display: flex;
-        flex-direction: column;
+      grid-column: 2/4;
+      grid-row: 1/2;
+      display: flex;
+      flex-direction: column;
     }
 
     section.mainstory figure {
       flex: 1 0 18em;
+      display: flex;
+      flex-direction: column;
     }
 
     section.mainstory h3 {
@@ -262,13 +264,30 @@ input:nth-of-type(11):checked ~ main.gallery figure.figure-gallery:nth-of-type(1
       margin: 0;
     }
 
+    section.mainstory figure div img {
+      height: 100%;
+      opacity: 0;
+    }
+
+    section.mainstory figure div {
+      flex: 1 0 18em;
+      background-image: url(mainstory-1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+
+    section.mainstory figure figcaption {
+      flex: 0 0 3em;
+    }
+
     section.mainstory p {
-        flex: 0 0 auto;
-        margin: 0;
+      flex: 0 0 auto;
+      margin: 0;
     }
 
     aside {
-        grid-column: 2/3;
+      grid-column: 2/3;
     }
 
 }
