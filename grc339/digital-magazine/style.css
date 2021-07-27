@@ -24,7 +24,7 @@ div.container-newsletter {
     max-width: 40em;
     margin: auto;
     padding: 1em;
-    line-height: 1.4em;
+    line-height: 1.5em;
 }
 
 main.gallery {
@@ -40,11 +40,25 @@ section {
   margin: 0 auto 3em;
 }
 
-section.personal-info, section.newsletter-choices, section.submit {
-    background: #fff;
+section.personal-info {
+    background: #ffeaec;
     padding: 1em;
     margin-bottom: 1em;
     box-sizing: border-box;
+}
+
+section.newsletter-choices {
+  background: #ffeaec;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
+}
+
+section.submit {
+  background: #ffeaec;
+  padding: 1em;
+  margin-bottom: 1em;
+  box-sizing: border-box;
 }
 
 section.personal-info ul li {
@@ -232,22 +246,29 @@ input:nth-of-type(11):checked ~ main.gallery figure.figure-gallery:nth-of-type(1
         grid-gap: 0 2em;
     }
 
-    aside {
-        grid-column: 2/3;
-    }
-
     section.mainstory {
         grid-column: 2/4;
         grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    section.mainstory figure {
+      flex: 1 0 18em;
     }
 
     section.mainstory h3 {
-        margin: 0.25em auto 0.25em;
+      flex: 0 0 auto;
+      margin: 0;
     }
 
     section.mainstory p {
         flex: 0 0 auto;
         margin: 0;
+    }
+
+    aside {
+        grid-column: 2/3;
     }
 
 }
